@@ -38,19 +38,22 @@ STATUS=Config.STATUS
 
 insta = Config.L
 buttons=InlineKeyboardMarkup(
-			[
-				[
-					InlineKeyboardButton("👨🏼‍💻Developer", url='https://t.me/iAmLiKu1'),
-					InlineKeyboardButton("🤖Other Bots", url="https://t.me/cs_cloud"),
-                    InlineKeyboardButton("⚙️Update Channel", url="https://t.me/cs_cloud")
-				],
-				[
-					InlineKeyboardButton("🔗Source Code", url="https://t.me/cs_cloud"),
-					InlineKeyboardButton("Plx don't block me", url="https://t.me/INSTGRAM_DL_CS_BOT")
-				]
-			]
-			)
-		)
+    [
+        [
+            InlineKeyboardButton("👨🏼‍💻Developer", url='https://t.me/iAmLiKu1'),
+            InlineKeyboardButton("My Boss Channel", url="https://t.me/cs_cloud")
+        ],
+        [
+            InlineKeyboardButton("Bot List 📚", url="https://t.me/cs_cloud/1145"),
+            InlineKeyboardButton("virus 🦠", url="https://t.me/cs_cloud")
+        ],
+        [
+            InlineKeyboardButton("👨🏼‍🦯How To Use?", callback_data="help#subin"),
+            InlineKeyboardButton("⚙️Update Channel", url="https://t.me/cs_cloud")
+        ]
+
+    ]
+    )
 
 
 
